@@ -29,7 +29,6 @@
       [(line) (syntax-line sobj)]
       [(col) (syntax-column sobj)]))
   (check-equal? (test 'line) (test 'line))
-  (check-equal? (test 'line) (test 'line))
   (check-not-equal? (test 'line)
                     (test 'line))
   (check-not-equal? (test 'col) (test 'col)))
